@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anton_page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #25FDE9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            color: #FF0000;
+        }
+        h2 {
+            color: white;
+        }
+        p {
+            color: white;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        .content {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #000;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            border: 10px solid transparent;
+            animation: borderAnimation 5s infinite linear;
+        }
+        @keyframes borderAnimation {
+            0% {
+                border-color: red;
+                box-shadow: 0 0 10px red;
+            }
+            25% {
+                border-color: red;
+                box-shadow: 0 0 10px blue;
+            }
+            50% {
+                border-color: red;
+                box-shadow: 0 0 10px green;
+            }
+            75% {
+                border-color: blue;
+                box-shadow: 0 0 10px yellow;
+            }
+            100% {
+                border-color: blue;
+                box-shadow: 0 0 10px red;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Défi 1 : Mon Petit Poème</h1>
+
+        <h2>Introduction</h2>
+        <p>Voici un petit poème pour illuminer votre journée.</p>
+
+        <h3>Poème</h3>
+        <p>
+            Le soleil se lève, doux et brillant,<br>
+            Les oiseaux chantent, le jour commence.<br>
+            Les fleurs s'ouvrent, colorées et vibrantes,<br>
+            La nature s'éveille, pleine d'espérance.<br>
+        </p>
+        <p>
+            Le vent murmure à travers les arbres,<br>
+            Une symphonie de sons et de brise.<br>
+            La rivière coule, calme et sereine,<br>
+            La paix de la nature, douce et précise.<br>
+        </p>
+
+        <h2>Conclusion</h2>
+        <p>Que ce poème simple vous apporte un instant de calme et de joie.</p>
+        
+        <h1>Défi 2 : Mise en évidence des caractères avec la balise h1</h1>
+        <h2>Petite info sur les chiens !</h2>
+        <p>
+            Les chiens, compagnons fidèles de l'homme, sont des mammifères domestiques appartenant à l'espèce *Canis lupus familiaris*. Ils descendent des loups et ont été domestiqués il y a des milliers d'années. Les chiens sont connus pour leur loyauté, leur intelligence et leur capacité à former des liens étroits avec les humains. Ils jouent divers rôles dans la société, notamment comme animaux de compagnie, chiens de travail (chasse, garde, sauvetage), et animaux de thérapie. Ils existent en de nombreuses races, chacune ayant des caractéristiques physiques et comportementales spécifiques.
+        </p>
+        
+        <h1>Défi 3 : Utiliser la balise img</h1>
+
+        <h2>Et me voilà ! :</h2>
+        <img src="/home/hander01/Desktop/html_ciel/img1_mrrobot.jpeg" alt="Image de Mr. Robot">
+    </div>
+
+</body>
+</html>
